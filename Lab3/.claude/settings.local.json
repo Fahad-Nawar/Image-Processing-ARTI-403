@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls \"c:\\\\Users\\\\Fahad\\\\OneDrive\\\\سطح المكتب\\\\IAU\\\\Image Processing\\\\Labs\\\\\" -Recurse -Include \"*.jpg\",\"*.png\",\"*.jpeg\" | Select-Object -First 10)",
+      "Read(//c/Users/Fahad/OneDrive/سطح المكتب/IAU/Image Processing/**)",
+      "PowerShell(Get-ChildItem -Path \"c:\\\\Users\\\\Fahad\\\\OneDrive\\\\سطح المكتب\\\\IAU\\\\Image Processing\\\\Labs\\\\Lab3\" -Force | ForEach-Object { $_.Name })"
+    ]
+  }
+}
